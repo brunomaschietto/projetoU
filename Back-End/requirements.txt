@@ -1,2 +1,6 @@
-openai
+fastapi
+uvicorn[standard]
 pdfplumber
+transformers
+torch
+python-multipart
