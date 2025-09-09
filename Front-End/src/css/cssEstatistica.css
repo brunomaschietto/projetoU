@@ -1,0 +1,8 @@
+@media (max-width: 999px) {
+    .responsive-text {
+      display: none;
+    }
+    .texto-grande {
+        font-size: small;
+    }
+  }
