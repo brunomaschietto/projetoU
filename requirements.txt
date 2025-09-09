@@ -1,6 +1,6 @@
 fastapi
 uvicorn[standard]
 pdfplumber
-transformers==4.21.0
-torch==1.12.0+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+transformers==4.30.0
+torch==2.0.0 --index-url https://download.pytorch.org/whl/cpu
 python-multipart
