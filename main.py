@@ -5,8 +5,8 @@ from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 from transformers import pipeline
 
-classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
-responder = pipeline("text2text-generation", model="google/flan-t5-base")
+classifier = pipeline("zero-shot-classification", model="facebook/bart-base")
+responder = pipeline("text2text-generation", model="google/flan-t5-small")
 
 app = FastAPI()
 app.add_middleware(
